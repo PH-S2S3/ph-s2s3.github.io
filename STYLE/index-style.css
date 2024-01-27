@@ -1,0 +1,58 @@
+body {
+    background-image: url(../IMAGE/ooo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    cursor: url(../CURSOR/normal.png), auto;
+}
+
+button {
+    cursor: url(../CURSOR/click.png), auto;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    padding-top: 500px;
+}
+
+button {
+    font-size: 50px;
+    transition: 0.5s;
+    width: 16%;
+    background-color: transparent;
+    border: 0px;
+    height: 100%;
+}
+
+button:hover {
+    font-size: 80px;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.038);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.transparent {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+
+
+
+.menu {
+    border: 9px solid rgba(255, 255, 255, 0.173);
+    background-image: url(../IMAGE/index-button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 92%;
+    height: 200px;
+}
