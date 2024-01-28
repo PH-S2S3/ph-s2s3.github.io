@@ -1,5 +1,5 @@
 body {
-    background-image: url(../IMAGE/ooo.jpg);
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706400000&semt=sph);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,7 +15,6 @@ button {
 body {
     align-items: center;
     text-align: center;
-    padding-top: 500px;
 }
 
 button {
@@ -30,7 +29,26 @@ button {
 button:hover {
     font-size: 80px;
     width: 15%;
-    background-color: rgba(255, 255, 255, 0.038);
+    background-color: rgba(192, 115, 243, 0.127);
+    text-shadow: -3px 3px 0 #000,
+        3px 3px 0 #000,
+        3px -3px 0 #000,
+        -3px -3px 0 #000;
+}
+
+font {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1800%;
+    transition: 0.4s;
+}
+
+font:hover {
+    font-size: 1900%;
+    color: white;
+    text-shadow: -3px 3px 0 #000,
+        3px 3px 0 #000,
+        3px -3px 0 #000,
+        -3px -3px 0 #000;
 }
 
 .container {
@@ -45,11 +63,26 @@ button:hover {
     filter: contrast(1);
 }
 
+.title {
+    position: absolute;
+    box-sizing: border-box;
+    top: 20%;
+    left: 35.3%;
+    width: 25%;
+    height: 20%;
+    transition: 0.4s;
+}
 
+.title:hover {
+    background-color: aqua;
+}
 
 .menu {
-    border: 9px solid rgba(255, 255, 255, 0.173);
-    background-image: url(../IMAGE/index-button.png);
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    border: 9px solid rgba(255, 255, 255, 0.392);
+    background-image: url(../IMAGE/image1.png);
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
