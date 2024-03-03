@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Kaiti;
+}
+
+html {
+    cursor: url(../CURSOR/normal.png), auto;
+}
+
+button {
+    cursor: url(../CURSOR/click.png), auto;
+}
+
 body {
     background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706400000&semt=sph);
     background-repeat: no-repeat;
@@ -10,6 +27,68 @@ button {
     width: 5vw;
     height: 5vw;
     transition: 0.4s;
+    font-size: 3vw;
+    border: 0.2vw solid black;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: rgba(245, 245, 245, 0.641);
+}
+
+#container1,
+#container2,
+#container3,
+#container4,
+#container5,
+#container6,
+#container7,
+#container8,
+#container9,
+#container10,
+#container11,
+#container12,
+#container13,
+#container14,
+#container15,
+#container16,
+#container17,
+#container18,
+#container19,
+#container20,
+#container21,
+#container22,
+#container23,
+#container24,
+#container25,
+#container26,
+#container27,
+#container28,
+#container29,
+#container30,
+#container31,
+#container32,
+#container33,
+#container34,
+#container35,
+#container36,
+#container37,
+#container38,
+#container39 {
+    visibility: hidden;
+    z-index: 2;
+}
+
+#container1 {
+    background-color: red;
+}
+
+#container2 {
+    background-color: blue;
+}
+
+#container3 {
+    background-color: yellow;
 }
 
 #btn1 {
@@ -98,3 +177,21 @@ button {
 #btn38 {}
 
 #btn39 {}
+
+#closeBtn {
+    position: absolute;
+    border-radius: 0;
+    right: 2vw;
+    top: 2vh;
+    width: 4vw;
+    height: 8vh;
+    font-size: 2vw;
+    border: 0;
+    z-index: 3;
+    visibility: hidden;
+}
+
+#closeBtn:hover {
+    background-color: transparent;
+    font-size: 3vw;
+}
