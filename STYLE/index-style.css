@@ -30,25 +30,25 @@ button:hover {
     font-size: 5vw;
     width: 15%;
     background-color: rgba(192, 115, 243, 0.127);
-    text-shadow: -3px 3px 0 #000,
-        3px 3px 0 #000,
-        3px -3px 0 #000,
-        -3px -3px 0 #000;
+    text-shadow: -0.2vw 0.2vw 0 #000,
+        0.2vw 0.2vw 0 #000,
+        0.2vw -0.2vw 0 #000,
+        -0.2vw -0.2vw 0 #000;
 }
 
 font {
     font-family: 'Brush Script MT', cursive;
-    font-size: 1800%;
+    font-size: 18.76vw;
     transition: 0.4s;
 }
 
 font:hover {
-    font-size: 1900%;
+    font-size: 19.76vw;
     color: white;
-    text-shadow: -3px 3px 0 #000,
-        3px 3px 0 #000,
-        3px -3px 0 #000,
-        -3px -3px 0 #000;
+    text-shadow: -0.2vw 0.2vw 0 #000,
+        0.2vw 0.2vw 0 #000,
+        0.2vw -0.2vw 0 #000,
+        -0.2vw -0.2vw 0 #000;
 }
 
 .container {
@@ -86,6 +86,6 @@ font:hover {
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-    width: 92%;
-    height: 200px;
+    width: 92vw;
+    height: 23vh;
 }
