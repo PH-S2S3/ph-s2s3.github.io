@@ -26,12 +26,13 @@ button {
     cursor: url(../CURSOR/click.png), auto;
     position: absolute;
     border-radius: 55%;
-    width: 7vw;
-    height: 14vh;
+    width: 4vw;
+    height: 8vh;
     transition: 0.4s;
     font-size: 3vw;
     border: 0.2vw solid black;
     background-color: transparent;
+    font-size: 20px;
 }
 
 button:hover {
@@ -119,243 +120,243 @@ button:hover {
 
 /*BUTTONS*/
 #btn1 {
-    top: 12%;
-    left: 16%;
+    top: 23.41117%;
+    left: 28.88889%;
 }
 
 #btn2 {
-    top: 5%;
-    left: 10%;
+    top: 19.52228%;
+    left: 25.55556%;
 }
 
 #btn3 {
-    top: 12%;
-    left: 4%;
+    top: 23.41117%;
+    left: 22.22222%;
 }
 
 #btn4 {
-    top: 24%;
-    left: 0.7%;
+    top: 30.0778%;
+    left: 20.388889%;
 }
 
 #btn5 {
-    top: 36.3%;
-    left: 4%;
+    top: 36.9112%;
+    left: 22.22222%;
 }
 
 #btn6 {
-    top: 40%;
-    left: 10.7%;
+    top: 38.9667%;
+    left: 25.94444%;
 }
 
 #btn7 {
-    top: 49%;
-    left: 16%;
+    top: 43.9667%;
+    left: 28.88889%;
 }
 
 #btn8 {
-    top: 61.1%;
-    left: 19.3%;
+    top: 50.6889%;
+    left: 30.7222%;
 }
 
 #btn9 {
-    top: 73.3%;
-    left: 16%;
+    top: 57.4667%;
+    left: 28.88889%;
 }
 
 #btn10 {
-    top: 80.5%;
-    left: 10%;
+    top: 61.4667%;
+    left: 25.55556%;
 }
 
 #btn11 {
-    top: 73.3%;
-    left: 4%;
+    top: 57.4667%;
+    left: 22.22222%;
 }
 
 #btn12 {
-    top: 59.8%;
-    left: 2%;
+    top: 49.9667%;
+    left: 21.11111%;
 }
 
 #btn13 {
-    top: 12%;
-    left: 24%;
+    top: 26.66667%;
+    left: 34.3333%;
 }
 
 #btn14 {
-    top: 4%;
-    left: 29.6%;
+    top: 22.22222%;
+    left: 37.4444%;
 }
 
 #btn15 {
-    top: 4%;
-    left: 36.6%;
+    top: 22.22222%;
+    left: 41.3333%;
 }
 
 #btn16 {
-    top: 12%;
-    left: 42.2%;
+    top: 26.66667%;
+    left: 44.4444%;
 }
 
 #btn17 {
-    top: 24.5%;
-    left: 39.3%;
+    top: 34.6111%;
+    left: 43.8333%;
 }
 
 #btn18 {
-    top: 36.2%;
-    left: 35.6%;
+    top: 41.1111%;
+    left: 41.7778%;
 }
 
 #btn19 {
-    top: 47.9%;
-    left: 31.8%;
+    top: 47.6111%;
+    left: 39.6667%;
 }
 
 #btn20 {
-    top: 60.7%;
-    left: 29%;
+    top: 53.7222%;
+    left: 37.1111%;
 }
 
 #btn21 {
-    top: 73.2%;
-    left: 26%;
+    top: 61.4667%;
+    left: 36.4444%;
 }
 
 #btn22 {
-    top: 73.2%;
-    left: 33%;
+    top: 61.4667%;
+    left: 40.3333%;
 }
 
 #btn23 {
-    top: 73.2%;
-    left: 40%;
+    top: 61.4667%;
+    left: 44.2222%;
 }
 
 #btn24 {
-    top: 12%;
-    left: 63%;
+    top: 23.31117%;
+    left: 58%;
 }
 
 #btn25 {
-    top: 5%;
-    left: 57%;
+    top: 19.52228%;
+    left: 54.6667%;
 }
 
 #btn26 {
-    top: 12%;
-    left: 51%;
+    top: 23.41117%;
+    left: 51.3333%;
 }
 
 #btn27 {
-    top: 24%;
-    left: 47.7%;
+    top: 30.0778%;
+    left: 49.5%;
 }
 
 #btn28 {
-    top: 36.3%;
-    left: 51%;
+    top: 36.9112%;
+    left: 51.3333%;
 }
 
 #btn29 {
-    top: 40%;
-    left: 57.7%;
+    top: 38.9667%;
+    left: 54.9744%;
 }
 
 #btn30 {
-    top: 49%;
-    left: 63%;
+    top: 43.9667%;
+    left: 58%;
 }
 
 #btn31 {
-    top: 61.1%;
-    left: 66.3%;
+    top: 50.6889%;
+    left: 59.8333%;
 }
 
 #btn32 {
-    top: 73.3%;
-    left: 63%;
+    top: 57.4667%;
+    left: 58%;
 }
 
 #btn33 {
-    top: 80.5%;
-    left: 57%;
+    top: 61.4667%;
+    left: 54.6667%;
 }
 
 #btn34 {
-    top: 73.3%;
-    left: 51%;
+    top: 57.4667%;
+    left: 51.3333%;
 }
 
 #btn35 {
-    top: 59.8%;
-    left: 49%;
+    top: 49.9667%;
+    left: 50.2222%;
 }
 
 #btn36 {
-    top: 14%;
-    left: 73%;
+    top: 22.85558%;
+    left: 63.5556%;
 }
 
 #btn37 {
-    top: 4%;
-    left: 77.7%;
+    top: 17.29902%;
+    left: 66.1667%;
 }
 
 #btn38 {
-    top: 4%;
-    left: 84.6%;
+    top: 17.29902%;
+    left: 70%;
 }
 
 #btn39 {
-    top: 14%;
-    left: 89.4%;
+    top: 22.85558%;
+    left: 72.6667%;
 }
 
 #btn40 {
-    top: 27.4%;
-    left: 88%;
+    top: 30.300%;
+    left: 71.8889%;
 }
 
 #btn41 {
-    top: 36%;
-    left: 82.5%;
+    top: 35.07778%;
+    left: 68.8333%;
 }
 
 #btn42 {
-    top: 43.7%;
-    left: 76.6%;
+    top: 39.35558%;
+    left: 65.5556%;
 }
 
 #btn43 {
-    top: 51.5%;
-    left: 82.5%;
+    top: 43.6889%;
+    left: 68.8333%;
 }
 
 #btn44 {
-    top: 59.9%;
-    left: 88%;
+    top: 48.35558%;
+    left: 71.8889%;
 }
 
 #btn45 {
-    top: 73.5%;
-    left: 89.4%;
+    top: 55.9111%;
+    left: 72.6667%;
 }
 
 #btn46 {
-    top: 83.5%;
-    left: 84.6%;
+    top: 61.4667%;
+    left: 70%;
 }
 
 #btn47 {
-    top: 83.5%;
-    left: 77.7%;
+    top: 61.4667%;
+    left: 66.1667%;
 }
 
 #btn48 {
-    top: 73.5%;
-    left: 73%;
+    top: 55.9111%;
+    left: 63.5556%;
 }
 
 #closeBtn {
