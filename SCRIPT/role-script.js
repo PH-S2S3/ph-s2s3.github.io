@@ -241,3 +241,39 @@ function closeContainer() {
 
 document.addEventListener('DOMContentLoaded', function () {
 });
+
+//Feedback
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Get the button element
+    var button = document.getElementById('button');
+
+    // Get the feedback container
+    var feedback = document.getElementById('feedback');
+    var originalTransform = feedback.style.transform; // Store the original transform value
+    var originalOpacity = feedback.style.opacity !== '' ? feedback.style.opacity : '1'; // Default to 1 if opacity is not set
+
+    // Add click event listener to the button
+    button.addEventListener('click', function () {
+        // Toggle the visibility of the feedback container
+        if (feedback.style.visibility === 'visible') {
+            gsap.to(feedback, {
+                duration: 0.5, // Short duration for immediate hiding
+                opacity: 0,
+                onComplete: function () {
+                    feedback.style.visibility = 'hidden';
+                    feedback.style.transform = originalTransform; // Reset transform to original value
+                    feedback.style.opacity = originalOpacity; // Reset opacity to original value
+                    gsap.set(feedback, { clearProps: 'all' }); // Clear all applied GSAP properties
+                }
+            });
+        } else {
+            feedback.style.visibility = 'visible';
+            gsap.to(feedback, {
+                duration: 1,
+                ease: "elastic.out(1,0.4)",
+                y: '-9vh'
+            });
+        }
+    });
+});
