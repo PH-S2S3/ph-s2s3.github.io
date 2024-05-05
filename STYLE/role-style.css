@@ -101,7 +101,7 @@ button:hover {
 
 label #btn,
 label #cancel {
-    cursor: url(../CURSOR/click-state.png), auto;
+    cursor: url(../CURSOR/click.png), auto;
     border-radius: 3px;
 }
 
