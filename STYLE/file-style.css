@@ -9,6 +9,41 @@ html {
     cursor: url(../CURSOR/normal.png), auto;
 }
 
+#feedback {
+    position: fixed;
+    box-sizing: border-box;
+    background-color: red;
+    width: 10%;
+    height: 20%;
+    bottom: 25%;
+    left: 45%;
+    visibility: hidden;
+}
+
+#button {
+    font-family: 'Brush Script MT', cursive;
+    width: 13.5vw;
+    height: 9vh;
+    font-size: 1.7vw;
+    text-align: left;
+    color: white;
+    cursor: url(../CURSOR/click.png), auto;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 1%;
+    left: 1.2vw;
+    background-color: rgb(11, 10, 10);
+    transition: 0.2s;
+    border: 2px solid black;
+}
+
+#button:hover {
+    background-color: rgb(50, 45, 45);
+    animation-name: jumping;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
 * {
     margin: 0;
     padding: 0;
