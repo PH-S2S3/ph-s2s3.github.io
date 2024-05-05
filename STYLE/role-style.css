@@ -4,7 +4,7 @@
 }
 
 html {
-    font-family: Arial, Kaiti;
+    font-family: Garamond, Kaiti;
 }
 
 html {
@@ -24,19 +24,183 @@ body {
 
 button {
     cursor: url(../CURSOR/click.png), auto;
-    position: absolute;
-    border-radius: 55%;
-    width: 4vw;
-    height: 8vh;
-    transition: 0.4s;
-    font-size: 3vw;
-    border: 0.2vw solid black;
-    background-color: transparent;
-    font-size: 20px;
 }
 
 button:hover {
     background-color: rgba(245, 245, 245, 0.641);
+}
+
+/*MENU*/
+.menu {
+    text-align: center;
+    position: fixed;
+    top: 1vh;
+    left: -16vw;
+    width: 16vw;
+    height: 98vh;
+    background-color: rgb(11, 10, 10);
+    transition: 0.5s;
+    border-radius: 25px;
+}
+
+.menu1 {
+    position: absolute;
+    top: 3.3vh;
+    left: 1vw;
+    color: white;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.button-text {
+    font-size: 2.5vw;
+}
+
+#check {
+    display: none;
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5,
+.button6 {
+    font-family: 'Brush Script MT', cursive;
+    width: 13.5vw;
+    height: 9vh;
+    font-size: 1.7vw;
+    text-align: left;
+    color: white;
+    cursor: url(../CURSOR/click.png), auto;
+    border-radius: 15px;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover,
+.button6:hover {
+    background-color: rgb(50, 45, 45);
+    animation-name: jumping;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jumping {
+    0% {
+        left: 1.2vw;
+    }
+
+    50% {
+        left: 1.8vw;
+    }
+}
+
+label #btn,
+label #cancel {
+    cursor: url(../CURSOR/click-state.png), auto;
+    border-radius: 3px;
+}
+
+label #btn {
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel {
+    position: fixed;
+    z-index: 1;
+    top: 1vh;
+    left: -13.3vw;
+    font-size: 3.3vh;
+    color: white;
+    padding: 4px 9px;
+    transition: all .5s;
+}
+
+.button1 {
+    position: absolute;
+    top: 10vh;
+    left: 1.2vw;
+    background-color: rgb(11, 10, 10);
+    border: none;
+    transition: 0.2s;
+    border: 2px solid black;
+}
+
+.button2 {
+    position: absolute;
+    top: 20vh;
+    left: 1.2vw;
+    background-color: rgb(11, 10, 10);
+    border: none;
+    transition: 0.2s;
+    border: 2px solid black;
+}
+
+.button3 {
+    position: absolute;
+    top: 30vh;
+    left: 1.2vw;
+    background-color: rgb(11, 10, 10);
+    border: none;
+    transition: 0.2s;
+    border: 2px solid black;
+}
+
+.button4 {
+    position: absolute;
+    top: 40vh;
+    left: 1.2vw;
+    background-color: rgb(11, 10, 10);
+    border: none;
+    transition: 0.2s;
+    border: 2px solid black;
+}
+
+.button5 {
+    position: absolute;
+    top: 50vh;
+    left: 1.2vw;
+    background-color: rgb(11, 10, 10);
+    border: none;
+    transition: 0.2s;
+    border: 2px solid black;
+}
+
+.button6 {
+    position: absolute;
+    top: 60vh;
+    left: 1.2vw;
+    background-color: rgb(11, 10, 10);
+    border: none;
+    transition: 0.2s;
+    border: 2px solid black;
+}
+
+#check:checked~.menu {
+    left: 1vw;
+}
+
+#check:checked~.body {
+    margin-left: 16vw;
+}
+
+#check:checked~label #btn {
+    left: 10vw;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked~label #cancel {
+    left: 14.3vw;
 }
 
 /*CONTAINERS*/
@@ -119,6 +283,66 @@ button:hover {
 /*TABLE 2*/
 
 /*BUTTONS*/
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8,
+#btn9,
+#btn10,
+#btn11,
+#btn12,
+#btn13,
+#btn14,
+#btn15,
+#btn16,
+#btn17,
+#btn18,
+#btn19,
+#btn20,
+#btn21,
+#btn22,
+#btn23,
+#btn24,
+#btn25,
+#btn26,
+#btn27,
+#btn28,
+#btn29,
+#btn30,
+#btn31,
+#btn32,
+#btn33,
+#btn34,
+#btn35,
+#btn36,
+#btn37,
+#btn38,
+#btn39,
+#btn40,
+#btn41,
+#btn42,
+#btn43,
+#btn44,
+#btn45,
+#btn46,
+#btn47,
+#btn48 {
+    position: absolute;
+    border-radius: 55%;
+    width: 4vw;
+    height: 8vh;
+    transition: 0.4s;
+    font-size: 3vw;
+    border: 0.2vw solid black;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+
 #btn1 {
     top: 23.41117%;
     left: 28.88889%;
