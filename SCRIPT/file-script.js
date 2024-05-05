@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Toggle the visibility of the feedback container
         if (feedback.style.visibility === 'visible') {
             gsap.to(feedback, {
-                duration: 1, // Short duration for immediate hiding
+                duration: 0.5, // Short duration for immediate hiding
                 opacity: 0,
                 onComplete: function () {
                     feedback.style.visibility = 'hidden';
@@ -201,9 +201,9 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             feedback.style.visibility = 'visible';
             gsap.to(feedback, {
-                duration: 2.5,
-                ease: "elastic.out(1,0.3)",
-                y: '-20vh'
+                duration: 1,
+                ease: "elastic.out(1,0.4)",
+                y: '-9vh'
             });
         }
     });
